@@ -3,13 +3,9 @@ title: 'Domain name system'
 metaTitle: 'Domain name system'
 metaDescription: 'This is the meta description'
 ---
+![alt text](http://i.imgur.com/IOyLj4i.jpg "Domain name system")
 
-// TODO add image
-<!-- <p align="center">
-  <img src="http://i.imgur.com/IOyLj4i.jpg"/>
-  <br/>
-  <i><a href=http://www.slideshare.net/srikrupa5/dns-security-presentation-issa>Source: DNS security presentation</a></i>
-</p> -->
+[Source: DNS security presentation](http://www.slideshare.net/srikrupa5/dns-security-presentation-issa)
 
 A Domain Name System (DNS) translates a domain name such as www.example.com to an IP address.
 

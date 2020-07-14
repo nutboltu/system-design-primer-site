@@ -6,7 +6,9 @@ metaDescription: 'This is the meta description'
 
 ### CAP theorem
 
-// TODO Image is missing
+![alt text](http://i.imgur.com/bgLMI2u.png "CAP theorem")
+
+[Source: CAP theorem revisited](http://robertgreiner.com/2014/08/cap-theorem-revisited)
 
 In a distributed computer system, you can only support two of the following guarantees:
 
