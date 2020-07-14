@@ -41,6 +41,7 @@ const config = {
       '/introduction', // add trailing slash if enabled above
       '/motivation',
       '/codeblock',
+      '/hello',
     ],
     collapsedNav: [
       '/codeblock', // add trailing slash if enabled above
