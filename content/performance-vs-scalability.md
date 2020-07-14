@@ -1,6 +1,6 @@
 ---
 title: 'Performance vs scalability'
-metaTitle: 'This is the title tag of this page'
+metaTitle: 'Performance vs scalability'
 metaDescription: 'This is the meta description'
 ---
 
