@@ -1,32 +1,23 @@
 const config = {
   gatsby: {
     pathPrefix: '/',
-    siteUrl: 'https://hasura.io',
+    siteUrl: '',
     gaTrackingId: null,
     trailingSlash: false,
   },
   header: {
-    logo: 'https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/brand.svg',
-    logoLink: 'https://hasura.io/learn/',
-    title:
-      "<a href='https://hasura.io/learn/'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>",
-    githubUrl: 'https://github.com/hasura/gatsby-gitbook-boilerplate',
-    helpUrl: '',
+    logo: '',
+    logoLink: '',
+    title: 'Core Resources',
     tweetText: '',
     social: `<li>
-		    <a href="https://twitter.com/hasurahq" target="_blank" rel="noopener">
+		    <a href="https://twitter.com/nutboltu" target="_blank" rel="noopener">
 		      <div class="twitterBtn">
-		        <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/twitter-brands-block.svg' alt={'Discord'}/>
+		        <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/twitter-brands-block.svg' alt={'Twitter'}/>
 		      </div>
 		    </a>
 		  </li>
-			<li>
-		    <a href="https://discordapp.com/invite/hasura" target="_blank" rel="noopener">
-		      <div class="discordBtn">
-		        <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/discord-brands-block.svg' alt={'Discord'}/>
-		      </div>
-		    </a>
-		  </li>`,
+			`,
     links: [{ text: '', link: '' }],
     search: {
       enabled: false,
@@ -38,30 +29,46 @@ const config = {
   },
   sidebar: {
     forcedNavOrder: [
-      '/introduction', // add trailing slash if enabled above
-      '/codeblock',
+      '/getting-started', // add trailing slash if enabled above
+      '/performance-vs-scalability',
+      '/latency-vs-throughput',
+      '/availability-vs-consistency',
+      '/consistency-patterns',
+      '/availability-patterns',
+      '/domain-name-system',
+      '/content-delivery-network',
+      '/load-balancer',
+      '/reverse-proxy',
+      '/application-layer',
+      '/database',
+      '/cache',
+      '/asynchronism',
+      '/communication',
+      '/security',
+      '/appendix',
+      '/credits'
     ],
     collapsedNav: [
-      '/codeblock', // add trailing slash if enabled above
+      '/database', // add trailing slash if enabled above
     ],
-    links: [{ text: 'Hasura', link: 'https://hasura.io' }],
+    links: [{ text: 'System Design Premier', link: '' }],
     frontline: false,
     ignoreIndex: true,
-    title:
-      "<a href='https://hasura.io/learn/'>graphql </a><div class='greenCircle'></div><a href='https://hasura.io/learn/graphql/react/introduction/'>react</a>",
+    title: 'Core Resources'
   },
   siteMetadata: {
-    title: 'Gatsby Gitbook Boilerplate | Hasura',
-    description: 'Documentation built with mdx. Powering hasura.io/learn ',
+    title: 'System Design Premier | Resources',
+    description: 'Gathering all system design related resources into one place',
     ogImage: null,
     docsLocation: '/content',
-    favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
+    favicon: '',
+    githubUrl: 'https://github.com/nutboltu/system-design-premier-site',
   },
   pwa: {
     enabled: false, // disabling this will also remove the existing service worker.
     manifest: {
-      name: 'Gatsby Gitbook Starter',
-      short_name: 'GitbookStarter',
+      name: 'System Design Premier',
+      short_name: 'SystemDesignPremier',
       start_url: '/',
       background_color: '#6b37bf',
       theme_color: '#6b37bf',

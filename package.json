@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-gitbook-boilerplate",
+  "name": "system-design-premier-site",
   "private": true,
-  "description": "Documentation, built with mdx",
-  "author": "Praveen <praveen@hasura.io> (@praveenweb)",
+  "description": "Gathering all system design related resources into one place",
+  "author": "Farhad Yasir (@nutboltu)",
   "version": "0.0.1",
   "dependencies": {
     "@babel/plugin-proposal-export-default-from": "^7.7.4",

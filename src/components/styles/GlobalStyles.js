@@ -418,7 +418,7 @@ export const baseStyles = injectGlobal`
   }
 
   .sideBarUL {
-    margin-top: 32px;
+    margin-top: 12px;
   }
 
   .sideBarUL li {
