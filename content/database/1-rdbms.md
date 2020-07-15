@@ -1,6 +1,6 @@
 ---
-title: 'Relational database management system (RDBMS)'
-metaTitle: 'Relational database management system (RDBMS)'
+title: 'Relational database'
+metaTitle: 'Relational database'
 metaDescription: 'This is the meta description'
 ---
 
