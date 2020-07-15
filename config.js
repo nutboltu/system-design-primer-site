@@ -1,7 +1,7 @@
 const config = {
   gatsby: {
     pathPrefix: '/',
-    siteUrl: '',
+    siteUrl: 'https://github.com/nutboltu/system-design-premier-site',
     gaTrackingId: null,
     trailingSlash: false,
   },
@@ -26,6 +26,8 @@ const config = {
       algoliaSearchKey: process.env.GATSBY_ALGOLIA_SEARCH_KEY,
       algoliaAdminKey: process.env.ALGOLIA_ADMIN_KEY,
     },
+    helpUrl: 'https://github.com/nutboltu/system-design-premier-site',
+    githubUrl: 'https://github.com/nutboltu/system-design-premier-site',
   },
   sidebar: {
     forcedNavOrder: [
