@@ -98,12 +98,12 @@ const Header = ({ location, isDarkThemeActive, toggleActiveTheme }) => (
                   src={logo.image !== '' ? logo.image : logoImg}
                   alt={'logo'}
                 />
-                
+
               </Link> */}
-              System Design Premier
+              System Design Primer
               {/* <div
                 className={'headerTitle displayInline'}
-                dangerouslySetInnerHTML={{ __html: 'System Design Premier' }}
+                dangerouslySetInnerHTML={{ __html: 'System Design Primer' }}
               /> */}
             </div>
             {config.header.social ? (

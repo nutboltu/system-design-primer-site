@@ -1,7 +1,7 @@
 const config = {
   gatsby: {
     pathPrefix: '/',
-    siteUrl: 'https://github.com/nutboltu/system-design-premier-site',
+    siteUrl: 'https://github.com/nutboltu/system-design-primer-site',
     gaTrackingId: null,
     trailingSlash: false,
   },
@@ -26,8 +26,8 @@ const config = {
       algoliaSearchKey: process.env.GATSBY_ALGOLIA_SEARCH_KEY,
       algoliaAdminKey: process.env.ALGOLIA_ADMIN_KEY,
     },
-    helpUrl: 'https://github.com/nutboltu/system-design-premier-site',
-    githubUrl: 'https://github.com/nutboltu/system-design-premier-site',
+    helpUrl: 'https://github.com/nutboltu/system-design-primer-site',
+    githubUrl: 'https://github.com/nutboltu/system-design-primer-site',
   },
   sidebar: {
     forcedNavOrder: [
@@ -53,24 +53,24 @@ const config = {
     collapsedNav: [
       '/database', // add trailing slash if enabled above
     ],
-    links: [{ text: 'System Design Premier', link: '' }],
+    links: [{ text: 'System Design Primer', link: '' }],
     frontline: false,
     ignoreIndex: true,
     title: 'Core Resources'
   },
   siteMetadata: {
-    title: 'System Design Premier | Resources',
+    title: 'System Design Primer | Resources',
     description: 'Gathering all system design related resources into one place',
     ogImage: null,
     docsLocation: '/content',
     favicon: '',
-    githubUrl: 'https://github.com/nutboltu/system-design-premier-site',
+    githubUrl: 'https://github.com/nutboltu/system-design-primer-site',
   },
   pwa: {
     enabled: false, // disabling this will also remove the existing service worker.
     manifest: {
-      name: 'System Design Premier',
-      short_name: 'SystemDesignPremier',
+      name: 'System Design Primer',
+      short_name: 'SystemDesignPrimer',
       start_url: '/',
       background_color: '#6b37bf',
       theme_color: '#6b37bf',
