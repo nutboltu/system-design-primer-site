@@ -2,7 +2,6 @@ import React from 'react';
 import styled from '@emotion/styled';
 import { StaticQuery, graphql } from 'gatsby';
 import GitHubButton from 'react-github-btn';
-import Link from './link';
 import Loadable from 'react-loadable';
 
 import config from '../../config.js';
@@ -76,35 +75,19 @@ const Header = ({ location, isDarkThemeActive, toggleActiveTheme }) => (
       }
     `}
     render={data => {
-      // const logoImg = require('./images/logo.svg');
-
       const twitter = require('./images/twitter.svg');
 
       const {
         site: {
-          siteMetadata: { headerTitle, githubUrl, helpUrl, tweetText, logo, headerLinks },
+          siteMetadata: { githubUrl, helpUrl, tweetText, headerLinks },
         },
       } = data;
-
-      const finalLogoLink = logo.link !== '' ? logo.link : '';
 
       return (
         <div className={'navBarWrapper'}>
           <nav className={'navBarDefault'}>
             <div className={'navBarHeader'}>
-              {/* <Link to={finalLogoLink} className={'navBarBrand'}>
-                <img
-                  className={'img-responsive displayInline'}
-                  src={logo.image !== '' ? logo.image : logoImg}
-                  alt={'logo'}
-                />
-
-              </Link> */}
               System Design Primer
-              {/* <div
-                className={'headerTitle displayInline'}
-                dangerouslySetInnerHTML={{ __html: 'System Design Primer' }}
-              /> */}
             </div>
             {config.header.social ? (
               <ul

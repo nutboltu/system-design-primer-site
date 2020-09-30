@@ -3,21 +3,14 @@ import Link from './link';
 
 import { StyledNextPrevious } from './styles/PageNavigationButtons';
 
-const NextPrevious = ({ mdx, nav }) => {
+const NextPrevious = ({ nav }) => {
   let currentIndex;
-
-  const currentPaginationInfo = nav.map((el, index) => {
-    if (el && el.url === mdx.fields.slug) {
-      currentIndex = index;
-    }
-  });
 
   const nextInfo = {};
 
   const previousInfo = {};
 
   if (currentIndex === undefined) {
-    // index
     if (nav[0]) {
       nextInfo.url = nav[0].url;
       nextInfo.title = nav[0].title;
